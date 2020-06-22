@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "446908212631",
+    "firebase_url": "https://mydigimonapi-uaswt2.firebaseio.com",
+    "project_id": "mydigimonapi-uaswt2",
+    "storage_bucket": "mydigimonapi-uaswt2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446908212631:android:ae318229dac83b51aad0d2",
+        "android_client_info": {
+          "package_name": "org.nativescript.yugiohapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446908212631-eb55h72ndl51jtlfr4tgvctb6c0opuak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.nativescript.yugiohapi",
+            "certificate_hash": "f195cbb028cd4414dc600ebe96aaa3cdd6333525"
+          }
+        },
+        {
+          "client_id": "446908212631-806jm8qgsgjmbg6etc31ksicn231aplo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCobNtyX1iA9B3PjxQ4bfDBeTrGX0p16Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446908212631-806jm8qgsgjmbg6etc31ksicn231aplo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

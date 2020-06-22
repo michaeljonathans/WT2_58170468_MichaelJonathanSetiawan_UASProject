@@ -1,0 +1,16 @@
+<GridLayout rows="*, auto, *" columns="*">
+    <StackLayout row="1" col="0" class="p-x-20">
+      <Image src="~/app/image/digimon.jpg"></Image>
+      <label
+        text="Welcome to Digimon List App! 
+        You can see the Digimon's name and their respective levels."
+        textwrap="true"
+      ></label>
+      <Button
+        class="-primary"
+        text="Login with your Google Account"
+        (tap)="login()"
+        [isEnabled]="!loginForm.invalid"
+      ></Button>
+    </StackLayout>
+</GridLayout>

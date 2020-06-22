@@ -1,0 +1,14 @@
+<ActionBar [title]="'Details of ' + name"></ActionBar>
+
+<GridLayout rows="auto, auto, *" columns="*, *" *ngIf="digimon">
+    <image [src]="digimon.img" row="1" col="0"></image>
+
+    <label text="Digimon status" class="h1" row="2" col="0" colspan="2"></label>
+
+    <GridLayout rows="auto, auto" columns="*, *" row="2" col="0" colspan="2">
+        <label text="Digimon's name" class="font-weight-bold" row="0" colspan="0"></label>
+        <label [text]="digimon.name" class="text-uppercase" row="0" col="1"></label>
+        <label text="Digimon's level" class="font-weight-bold" row="1" colspan="0"></label>
+        <label [text]="digimon.level" row="1" col="1"></label>
+    </GridLayout>
+</GridLayout>

@@ -1,0 +1,12 @@
+<ActionBar title="Digimon's list">
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="digimons$ | async" (loadMoreItems)="loadMore()">
+        <ng-template let-digimon="item">
+            <StackLayout>
+                <Label [nsRouterLink]="['/digimon', digimon.name]" [text]="digimon.name"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>
